@@ -81,3 +81,12 @@
     font-size: 15px;
     cursor: pointer;
   }
+
+@media only screen and (max-width: 600px){
+  .contact .leftSide{
+    display: none;
+  } 
+  .rightSide{
+    height: 100%;
+  }
+}

@@ -56,8 +56,25 @@
     }
   }
   
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 768px) {
     .menuList {
       grid-template-columns: 1fr;
     }
   }
+
+@media only screen and (max-width: 350px){
+  .menuList{
+    grid-template-columns: 250px;
+  }
+  .menuItem{
+    width: 220px;
+    height: 300px;
+  }
+  .menuItem h1{
+    font-size: 20px;
+  }
+
+  .menuTitle{
+    font-size: 35px !important;
+  }
+}

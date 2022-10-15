@@ -99,3 +99,13 @@
       color: #121619;
     }
   }
+
+  @media only screen and (max-width: 350px){
+    .headerContainer h1{
+      font-size: 30px;
+    }
+
+    .headerContainer p {
+      font-size: 15px;
+    }
+  }

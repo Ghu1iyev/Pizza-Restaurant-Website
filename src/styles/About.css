@@ -41,3 +41,31 @@
     justify-content: center;
     transform: translateY(-40px);
   }
+
+  @media only screen and (max-width: 768px){
+    .aboutBottom p {
+      width: auto;
+      padding: 0 50px;
+    }
+
+    .aboutBottom h1{
+      font-size: 60px !important;
+    }
+  }
+
+  @media only screen and (max-width: 450px){
+    .aboutBottom p {
+      padding: 0 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 350px){
+    .aboutBottom p {
+      padding: 0 10px;
+    }
+
+    .aboutBottom h1 {
+      font-size: 45px !important;
+    }
+  }
